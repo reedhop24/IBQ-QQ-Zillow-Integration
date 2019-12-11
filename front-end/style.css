@@ -1,0 +1,36 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.li{
+    padding:.5em;
+}
+
+#button1{
+    border: .5em;
+    top: .1em;
+    width: 10em;
+}
+.hvr-round-corners:focus {
+    outline: none;
+  }
+
+.hvr-round-corners {
+    box-shadow: 5px 10px #888888;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: border-radius;
+    transition-property: border-radius;
+  }
+
+.hvr-round-corners:hover, .hvr-round-corners:focus, .hvr-round-corners:active {
+    border-radius: 1em;
+    box-shadow: 2.5px 5px #888888;
+}
+
+
