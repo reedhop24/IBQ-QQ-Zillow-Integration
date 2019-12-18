@@ -1,6 +1,6 @@
 # zillow-integration
 
-### This project was originally done for IBQ, the main fram
+### This project was originally done for IBQ, built using Node.js(w/ Express, ), JQuery(I know, I was bummed I couldn't use React but it is part of the stack my lead dev wanted to use), html, css.
 
 ### Usage: 
 ### Within IBQ's UI we had already captured the address at the beginning of the Users Journey, therefore it was just a simple request to the
