@@ -1,15 +1,14 @@
 # zillow-integration
 
-#### This project was originally done for IBQ, built using Node.js, JQuery(I know, I was bummed I couldn't use React but it is part of the #### stack my lead dev wanted to use), Express, MongoDB, html, css.
+#### This project was originally done for IBQ, built using Node.js, JQuery(I know, I was bummed I couldn't use React but it is part of the stack my lead dev wanted to use), Express, MongoDB, html, css.
 
-#### Zillow's Real Estate and Mortgage API is used to collect information regarding Neighborhood and city affordability statistics: Zillow #### Home Value Index, Zestimate distribution, median single family home and condo values, average tax rates, and percentage of flips. 
-#### Though being in insurance we were only concerned with the Zestimate value of a home. 
+#### Zillow's Real Estate and Mortgage API is used to collect information regarding Neighborhood and city affordability statistics: Zillow Home Value Index, Zestimate distribution, median single family home and condo values, average tax rates, and percentage of flips. Though being in insurance we were only concerned with the Zestimate value of a home. 
 
-#### We were already capturing the customers address early in our UI, therefore the input boxes were something I added simply in order to #### make this a portfolio project. 
+#### We were already capturing the customers address early in our UI, therefore the input boxes were something I added simply in order to make this a portfolio project. 
 
 # Front End: 
 
-#### Zillow's API consumes a POST that requires the ZWSID that is assigned once you sign up to use Zillow's API. Therefore in the posting #### URL we posted the ZWSID as well as the city, state, and address of the home. Yet I knew we would receive the dreaded CORS error if we #### attempted to simply send from the UI. Therefore I created a proxy where the ajax request would post to, the proxy would handle the #### request, send it to the server as well as return the response, and save the response to the database. 
+#### Zillow's API consumes a POST that requires the ZWSID that is assigned once you sign up to use Zillow's API. Therefore in the posting URL we posted the ZWSID as well as the city, state, and address of the home. Yet I knew we would receive the dreaded CORS error if we attempted to simply send from the UI. Therefore I created a proxy where the ajax request would post to, the proxy would handle the request, send it to the server as well as return the response, and save the response to the database. 
 
 #### With that being said most of the functionality is running on the back end, the front end is capturing the users data sending in the #### ajax request then returning the below information from the response. 
 
