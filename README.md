@@ -30,7 +30,7 @@
 
 #### In the model.js file I am just creating a model to download to the database. I am calling that module in the proxy.js file. Before I save the post to the database, I do a little house cleaning and delete any items in the database that have been in longer than a month. I then use the unique id that Zillow returns for each home called the zpid. I test if the zpid exists in the DB and if not I post the request to the DB. I then return the response back to the front end.
 
-#### Since this is a portfolio project I am just hosting it locally. 
+#### Since this is a portfolio project I am just hosting it locally. In my job hunt, I thought it would be prudent to showcase the type of development I am doing for IBQ.  
 
 
 
