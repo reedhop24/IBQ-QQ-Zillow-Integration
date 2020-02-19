@@ -1,5 +1,3 @@
-'use strict';
-
 $(document).ready(() =>{
 
   $('#button1').click(() => {
