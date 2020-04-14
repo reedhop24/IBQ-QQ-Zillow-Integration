@@ -4,7 +4,7 @@ const request = require('request');
 const router = express.Router();
 const app = express();
 const parseString = require('xml2js').parseString;
-const model = require('./model');
+const model = require('../models/model');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true,}));
 

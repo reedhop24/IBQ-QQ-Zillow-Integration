@@ -1,5 +1,3 @@
-'use strict';
-
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -10,7 +8,7 @@ require('dotenv/config');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true,}));
 
-const post = require('./proxy');
+const post = require('./routes/proxy');
 app.use('/integrations', post);
 
 mongoose.connect(
