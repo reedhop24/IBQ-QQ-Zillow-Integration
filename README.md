@@ -6,7 +6,7 @@
 
 #### We were already capturing the customers address early in our UI, therefore the input boxes were something I added simply in order to make this a portfolio project. In IBQ's UI once we received the Zestimate I was just appending it as a Div onto our HTML.
 
-#### When I developed this project for IBQ I had sent it through our server so there was no need for a proxy. However, being a portfolio project I built out a proxy in order to avoid a CORS error. For IBQ I was also creating the model and storing that data on the back-end, while also clearing house of that data after a month. So a lot of the back end work I am doing in this project is also on IBQ's back-end. 
+#### I also created the back end for this including a proxy to send the request to as a way of avoiding any CORS issues. 
 
 
 
